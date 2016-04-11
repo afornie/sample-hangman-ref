@@ -436,3 +436,39 @@
 2016-04-11 17:08:00,991 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Volumes/HD1TB/appJava/sample-hangman-ref/src/main/resources
 2016-04-11 17:08:00,992 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2016-04-11 17:08:00,993 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Volumes/HD1TB/appJava/sample-hangman-ref/src/test/resources
+2016-04-11 17:32:51,534 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-11 17:32:51,534 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Volumes/HD1TB/appJava/sample-hangman-ref/src/main/resources
+2016-04-11 17:32:51,537 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-11 17:32:51,537 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Volumes/HD1TB/appJava/sample-hangman-ref/src/test/resources
+2016-04-11 17:36:30,607 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-11 17:36:30,607 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Volumes/HD1TB/appJava/sample-hangman-ref/src/main/resources
+2016-04-11 17:36:30,608 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-11 17:36:30,608 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Volumes/HD1TB/appJava/sample-hangman-ref/src/test/resources
+2016-04-11 17:43:38,122 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-11 17:43:38,123 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Volumes/HD1TB/appJava/sample-hangman-ref/src/main/resources
+2016-04-11 17:43:38,124 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-11 17:43:38,125 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Volumes/HD1TB/appJava/sample-hangman-ref/src/test/resources
+2016-04-11 17:44:22,185 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-11 17:44:22,185 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Volumes/HD1TB/appJava/sample-hangman-ref/src/main/resources
+2016-04-11 17:44:22,186 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-11 17:44:22,187 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Volumes/HD1TB/appJava/sample-hangman-ref/src/test/resources
+2016-04-11 17:49:38,791 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-11 17:49:38,791 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Volumes/HD1TB/appJava/sample-hangman-ref/src/main/resources
+2016-04-11 17:49:38,792 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-11 17:49:38,792 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Volumes/HD1TB/appJava/sample-hangman-ref/src/test/resources
+2016-04-11 17:50:54,572 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-11 17:50:54,573 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Volumes/HD1TB/appJava/sample-hangman-ref/src/main/resources
+2016-04-11 17:50:54,574 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-11 17:50:54,574 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Volumes/HD1TB/appJava/sample-hangman-ref/src/test/resources
+2016-04-11 17:50:59,759 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-11 17:50:59,759 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Volumes/HD1TB/appJava/sample-hangman-ref/src/main/resources
+2016-04-11 17:50:59,760 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-11 17:50:59,760 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Volumes/HD1TB/appJava/sample-hangman-ref/src/test/resources
+2016-04-11 17:56:00,622 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-11 17:56:00,623 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Volumes/HD1TB/appJava/sample-hangman-ref/src/main/resources
+2016-04-11 17:56:00,624 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-11 17:56:00,624 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Volumes/HD1TB/appJava/sample-hangman-ref/src/test/resources
+2016-04-11 18:02:18,720 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-11 18:02:18,720 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Volumes/HD1TB/appJava/sample-hangman-ref/src/main/resources
+2016-04-11 18:02:18,723 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-11 18:02:18,723 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Volumes/HD1TB/appJava/sample-hangman-ref/src/test/resources

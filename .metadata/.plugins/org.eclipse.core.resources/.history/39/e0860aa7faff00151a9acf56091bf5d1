@@ -6,15 +6,16 @@ import java.util.Scanner;
 public class HangmanGame {
 
 	public int attempts = 0;
-	public int shots = goal.length() * 1.5
+	
 	
 	public ArrayList matches = new ArrayList();
-	public ArrayList errors = new ArrayList()
+	public ArrayList errors = new ArrayList();
 
 	public Scanner keyboard = new Scanner(System.in);
 
 	public String goal = "destornillador";
 	public String ayuken = "";
+	public int shots = goal.length() * 2;
 
 	public String readFromKeyboard() {
 		return keyboard.nextLine();
@@ -25,19 +26,26 @@ public class HangmanGame {
 		shots--;
 		matches.add(readFromKeyboard().charAt(0));
 	}
-	
+/*-------------------------------------------------------------------------------*/	
 	public void ayuKen(){
-		attemts++;
+		attempts++;
 		shots -=5;
 		System.out.println("¿Qué palabra crees que es?");
-		ayuken = readFromKeyboard().toString();
+		ayuken = readFromKeyboard();
+		
+		if (ayuken == goal) {
+			System.out.println("Ganaste");
+			isGameOver();
+		}else {
+			System.out.println("Fallaste");
+		}
 	}
-	
-	public void getOptions{
+/*-------------------------------------------------------------------------------*/
+	public void getOptions(){
 		System.out.println("Elije un metodo:");
 		System.out.println("Elegir una letra(Sólo gastas un disparo): Presiona 1");
 		System.out.println("Metodo Ayuken, puedes intentar una palabra pero perderás 5 disparos: Presiona 2");
-		int option = readFromKeyboard();
+		int option = keyboard.nextInt();
 		
 		switch (option) {
 		case 1:
@@ -45,13 +53,14 @@ public class HangmanGame {
 			break;	
 		case 2:
 			ayuKen();
+			break;
 		default:
 			getChar();
 			break;
 		}
 	}
-	
-	public int getShots{
+/*-------------------------------------------------------------------------------*/	
+	public int getShots(){
 		return shots;
 	}
 
@@ -71,7 +80,7 @@ public class HangmanGame {
 	public void newRound() {
 		
 		while (shots > 0){
-			getChar();
+			getOptions();
 		}
 		// Pedir input de usuario
 		
@@ -85,9 +94,8 @@ public class HangmanGame {
 	}
 
 	public boolean isGameOver() {
-		if (shots == 0) {
-			return false;
-		}
+			return true;
+		
 		
 	}
 
