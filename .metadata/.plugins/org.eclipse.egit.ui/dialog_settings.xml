@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="2" key="org.eclipse.egit.ui.internal.clone.GitSelectWizardPageWizardSel"/>
+	<item value="/Volumes/HD1TB/appJava/sample-hangman-ref/.git" key="GitSelectRepositoryPage.lastRepository"/>
+	<list key="RepositorySelectionPage.UsedUris">
+		<item value="https://github.com/afornie/sample-hangman-ref/settings/collaboration"/>
+		<item value="https://github.com/afornie/sample-hangman-ref.git"/>
+		<item value="git@github.com:afornie/sample-hangman-ref.git"/>
+	</list>
+	<section name="GitImportWizard">
+		<item value="true" key="GitProjectsImportPage.STORE_NESTED_PROJECTS"/>
+	</section>
+</section>

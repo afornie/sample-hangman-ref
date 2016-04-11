@@ -1,0 +1,111 @@
+package hangman2;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class HangmanGame {
+
+	public int attempts = 0;
+	public int shots = goal.length() * 1.5;
+	
+	public ArrayList matches = new ArrayList();
+	public ArrayList errors = new ArrayList();
+
+	public Scanner keyboard = new Scanner(System.in);
+
+	public String goal = "destornillador";
+	public String ayuken = "";
+
+	public String readFromKeyboard() {
+		return keyboard.nextLine();
+	}
+
+	public void getChar() {
+		attempts++;
+		shots--;
+		matches.add(readFromKeyboard().charAt(0));
+	}
+/*-------------------------------------------------------------------------------*/	
+	public void ayuKen(){
+		attemts++;
+		shots -=5;
+		System.out.println("¿Qué palabra crees que es?");
+		ayuken = readFromKeyboard().toString();
+		
+		if (ayuken == goal) {
+			System.out.println("Ganaste");
+			isGameOver();
+		}else {
+			System.out.println("Fallaste");
+		}
+	}
+/*-------------------------------------------------------------------------------*/
+	public void getOptions(){
+		System.out.println("Elije un metodo:");
+		System.out.println("Elegir una letra(Sólo gastas un disparo): Presiona 1");
+		System.out.println("Metodo Ayuken, puedes intentar una palabra pero perderás 5 disparos: Presiona 2");
+		int option = keyboard.nextInt();
+		
+		switch (option) {
+		case 1:
+			getChar();
+			break;	
+		case 2:
+			ayuKen();
+		default:
+			getChar();
+			break;
+		}
+	}
+/*-------------------------------------------------------------------------------*/	
+	public int getShots{
+		return shots;
+	}
+
+	public String mask(String goal2) {
+		String masked = "";
+		for(int i = 0; i < goal.length(); i++) {
+			if (matches.contains(goal.charAt(i))) {
+				masked = masked + goal.charAt(i);
+			} else {
+				masked = masked + "?";
+				errors.add(goal.charAt(i));
+			}
+		}
+		return masked;
+	}
+
+	public void newRound() {
+		
+		while (shots > 0){
+			getOptions();
+		}
+		// Pedir input de usuario
+		
+
+		// Procesar el input : ver si acierta, actualizar el "contador"
+		
+
+		// Mostrar resultado hasta ahora
+		System.out.println("La palabra que buscas es " + goal);
+		System.out.println("Tu avance es " + mask(goal));
+	}
+
+	public boolean isGameOver() {
+			return false;
+		
+		
+	}
+
+	/**
+	 * Esto empieza la partida y engloba toda la funcionalidad
+	 */
+	public void start() {
+		while(!isGameOver()) {
+			// Nuevo turno
+			newRound();
+		}
+	}
+
+	
+}
