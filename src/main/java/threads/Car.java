@@ -5,9 +5,14 @@ public class Car implements Runnable {
 	public static int numWinners;
 
 	public void declareWinner() {
-		winner = Thread.currentThread();
 		numWinners++;
 		System.out.println("WINNER!!");
+		try {
+			Thread.sleep(1000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+		winner = Thread.currentThread();
 	}
 
 	public void startRace() {
